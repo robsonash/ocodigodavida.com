@@ -1,0 +1,176 @@
+*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+@media screen and (max-width: 800px) {
+    .menucol1{
+        display: block;
+        
+    }
+    .menucol2{
+        display: block;
+    }
+body{
+
+    width: 100vw;
+    height: 100vh;
+    background-color:  #ffffff;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+}
+
+.imgbolinha{
+    border-radius:50px;
+    width:40px;
+    height:40px;
+}
+.linha2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 93%;
+    background-color: #00ff33;
+  background-image:none;
+    background-repeat: no-repeat;
+
+}
+.clinha2{
+    background-color:  rgba(0, 0, 0, 0.3) ;
+    width: 100%;
+    height: 100%;
+}
+.clinha2 .linhaimg {
+    display: flex;
+    justify-content : center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%
+}
+.clinha2 .linhaimg img{
+    height: 80px;
+    width: 110px;
+    margin-top: 10px;
+}
+.linha2 .clinha2 .containerlogin{
+    margin-left: 5%;
+    
+    width: 90%;
+    height: 60%;
+    box-sizing: border-box;
+  
+    border: 2px solid #ffffff;
+    border-radius: 10px ;
+}
+.linha2  .clinha2 .containerlogin .col1{
+    margin-top: 20px;
+    width: 100%;
+    height: 10%;
+    color:#ffffff;
+    text-align: center;
+}
+.linha2  .clinha2 .containerlogin .col1 h2{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:#ffffff;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.linha2 .clinha2 .containerlogin .col2{
+margin-left: 4%;
+    width: 100%;
+    height: 0;
+    margin-top: 10px;
+}
+.linha2 .clinha2 .containerlogin .col2 .formulario{
+    width: 98%;
+    height: 100%;
+    margin-top: 10px;
+    
+    
+}
+.linha2  .clinha2 .containerlogin .col2 .icone{
+    border-radius: 10px 0 0 10px ;
+    background-color: #007f39;
+    opacity: 1;
+    width: 45px;
+    height: 52px;
+    margin-right: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+
+}
+.linha2 .clinha2 .containerlogin .col2 input{ 
+    font-size: 1.1em;
+    line-height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius:0 10px 10px 0;
+    background: #ffffff; 
+    border:0;
+    width: 80%;
+    height: 50px;
+
+}  .linha2 .clinha2 .containerlogin .col2 p{
+    padding-bottom: 15px;
+    alignment-adjust: central;
+    width: 100%;
+
+}
+.linha2 .clinha2 .containerlogin .col2 p .btn{  
+    cursor: pointer;
+    font-size: x-large;
+    margin-left: 3px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    width: 90%;
+    height: 55px;
+    background-color: #007f39;
+    text-align: center;
+    alignment-adjust: center;
+    margin-top: 1px;
+}
+.linha2 .clinha2 .containerlogin .col2  a{
+    color:white; 
+    font-family: sans-serif;
+    text-decoration:none; 
+    float:right;
+    height: 30px;
+    margin-top:0px;
+    margin-right: 0;
+    margin-bottom: 0;
+    float: none; 
+}
+
+
+::placeholder {
+    padding-left: 10px;
+    font-size: 1.0em;
+}
+
+}

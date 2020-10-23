@@ -1,0 +1,224 @@
+*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: bold;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.container{
+
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+}
+
+
+
+.menu{
+
+    display: flex;
+    width: 100%;
+    height: 44px;
+    background-color: #007f39;
+}
+.menu .menucol1{
+
+    width: 100%;
+    height: 44px;
+    background-color: #007f39;
+}
+.menu .menucol1 .linhausuario{
+    display: flex;
+}
+.menu .menucol1 .linhaimg{
+    width: 5%;
+    height: 100%;
+}
+.menu .menucol1 .linhausuarioinfo{
+    color: #ffffff;
+
+
+}
+.menu .menucol1 .linhausuarioinfo a {
+    color: #ff9999;
+
+
+}
+
+.menu .menucol2 {
+
+    background-color: #007f39;
+    width: 50%;
+    height: 100%;
+}
+.mobile{
+    display: none;
+}
+.hamburger{
+      display: none;
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+    display: none;
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu .menucol2 .menulinks { 
+    width: 70%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #007f39;
+    list-style:none;
+     margin-top:10px;
+    border-radius: 10px;
+
+}
+
+.menu .menucol2 .menulinks  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #007f39;
+    display: inline-block; 
+
+}
+
+
+.menu .menucol2 .menulinks  li  a {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding: 10px;
+    font-size: large;
+    background-color:#007f39;
+    text-decoration: none;
+    color:#ffffff;
+    font-family: segoe ui, monospace;  
+    text-transform: uppercase;
+
+}
+
+.menu .menucol2 .menulinks  li a:hover {
+    background-color:#ffffff;
+    color: #007f39;  
+}
+
+.menu .menucol2 .menulinks  li .ativo {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding: 10px;
+    font-size: large;
+    text-decoration: none;
+    background-color:#ffffff;
+    color: #007f39;  
+    font-family: segoe ui, monospace;  
+    text-transform: uppercase;
+
+}
+
+.menu .menucol2 .menulinks  li .ativo:hover {
+    background-color:#333;
+    color: #00ffffff;  
+}
+img{
+    cursor:pointer;
+}.imgbolinha{
+    border-radius:50px;
+    width:50px;
+    height:50px;
+}
+.modal_container{
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background: rgba(0, 0, 0, .9 );
+    z-index:  2000;
+    display: none;
+    justify-content:center;
+    align-items: center;
+
+
+}
+.modal{
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid orange;
+    box-shadow:  0 0 010px white;
+    position:relative;
+    background-color: #ffffff;
+}
+@keyframes modal{
+    from{
+        opacity:0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0, 0, 0);
+    }
+}
+.mostrar .modal {
+    animation: modal .3s;
+}
+.modal_container.mostrar{
+    display: flex;
+}
+.fechar{
+    position:absolute;
+    font-size: 1.2em;
+    top:-30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background:#988b7a;
+    color: white;
+    font-family: "PT Mono",monospace;
+    cursor:pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0,.3);
+
+}

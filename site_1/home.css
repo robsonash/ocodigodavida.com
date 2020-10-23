@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "arial-rounded-mt-light";
+    src: url('fonts/arial-rounded-mt-light.ttf');
+}
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+}
+.link a {
+    text-decoration: none;
+
+
+}
+.link {
+    list-style: none;
+    border-radius: 15px 50px 30px;
+    border-color: #009966;
+}
+label[for=”bt_menu”]{
+    padding: 5px;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    height: 50px;
+}
+#bt_menu {
+    display: none;
+}
+label[for=”bt_menu”]{
+    display: none;
+}
+/* Header/Blog Title */
+.header {
+    font-family: 'Mali', cursive;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+.row {
+    display: flex;
+}
+.row .leftcolumn .card h2 {
+font-family: arial-rounded-mt-light;
+    display: block;
+    font-size: 28pt;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+
+}
+.row .rightcolumn .carddireita h2{
+     font-size: 1.5em;
+      font-weight: bold;
+      margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.carddireita p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.row .leftcolumn .card p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.row .leftcolumn .card h5{
+display: block;
+    font-size: 1em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+.text p {
+
+    text-shadow: 2px 2px 2px #dcdcdc;
+    font-size: 20px;
+    text-align:center; 
+
+
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    height: 100%;
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.imgpostesquerda img{
+
+    height:100%; 
+    width: 100%;
+}
+.carddireita {
+
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    color: #003399;
+}
+.carddireita:hover{
+    color:  #00ccff;
+    box-shadow: 1px 1px 10px;
+}
+.imgpostdireita img{
+
+    height:100%; 
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cardcomentario {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    height:auto;
+}
+
+.linha{
+    width: 100%;
+    display: flex;
+    height:auto;
+}
+p img {
+    width:50px;
+    height:50px;
+    border-radius:50px;
+}
+.coluna{
+
+    height:auto;
+    width: 60px;
+}
+.coluna2 .linha1c{
+    height: 10px;
+    width: 100%;
+}
+.coluna2 .linha1c p{
+    margin: 0px;
+    margin-top: 10px;
+}
+.coluna2{
+    width: 80%;
+    height:auto;
+}
+.coluna2 .linha2c{
+    height:auto;
+    width: 100%;
+}
+.coluna2 .linha3c{
+
+}
+.coluna2 .linha3c p{
+    font-size: 13px;color: #999999;   
+}
+.coluna2 .linha3c p img{
+    cursor: pointer;
+    border-radius: 0;
+    width: 15px;
+    height: 15px;
+
+}
+
+
+
+
+
+
+
+
+.coluna3{
+    height:auto;
+    width: 20%;
+}
+.coluna3 .linha1c3 img{
+    cursor: pointer;
+    height:30px;
+    width: 30px;
+    float:right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.coluna3 .linha1c3 form input{
+    cursor: pointer;
+    height:30px;
+    width: 30px;
+    float:right;
+    margin-top: 5px;
+    margin-right: 10px;
+
+}
+.span1{
+    font-weight: bold;
+    color: #66ccff;
+}
+.span2{
+
+    font-size: small;
+    color:#6D6D6D;
+}
+.linha2c{
+    height: 100%;
+
+}
+.linha2c h5{
+
+    height: 100%;
+    width: 50%;
+    height: 100%;
+    color: #666666;
+    font-family: 'Mali', cursive;
+    margin: 0px;
+    margin-top:  8px;
+    margin-bottom: 3px;
+
+    text-shadow: 2px 2px 2px #dcdcdc;
+
+}
+.cardadd{
+    display: flex;
+
+    background-color: white;
+
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.area{
+    border-radius:4px;
+    box-shadow: 1px 0px  4px 0px #33ff33;
+    background: #ffffff;
+    border:2px solid #009966;
+    width: 500px;
+}
+
+

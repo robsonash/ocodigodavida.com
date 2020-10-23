@@ -1,0 +1,26 @@
+.foo {
+    font-family: cursive;
+    height:120px;
+    padding: 20px;
+    text-align: center;
+    background: #ccffcc;
+    margin-top: 20px;
+    border-top: double  #ffcc33 4px;
+      position:absolute;
+}
+ img{
+     margin-top: 10px;
+     text-align: center;
+    width: 30px;
+}
+@media  screen and (max-width: 360px){
+    .footer{
+    position:fixed;
+    
+    
+ 
+ 
+    
+    
+ }
+}
