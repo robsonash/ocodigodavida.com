@@ -2,11 +2,7 @@
 $conexao = null;
 function conectar() {
 
-     // $hostname = "br966.hostgator.com.br";
-     //$user = "ocodig64_test";
-    // $password = "triciclo";
-    // $database = "ocodig64_codgniter";
-   // $conexao = mysqli_connect($hostname, $user, $password, $database);
+
 
     $hostname = "localhost";
     $user = "root";
